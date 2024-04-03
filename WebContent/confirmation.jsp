@@ -14,21 +14,21 @@
 <div class="container">
 <div class="card">
   <div class="card-header">
-    Confirmation Ajout Produit
+    Confirmation Ajout voyage
   </div>
   <div class="card-body">
       
       <div class="form-group">
        <label class="control-label">ID :</label>
-       <input type="text" name="Nom" class="form-control" value="${produit.idProduit }"/>
+       <input type="text" name="Nom" class="form-control" value="${voyage.idvoyage }"/>
          
-       <label class="control-label">Nom Produit :</label>
-       <input type="text" name="Nom" class="form-control" value="${produit.nomProduit }"/>
+       <label class="control-label">Nom voyage :</label>
+       <input type="text" name="Nom" class="form-control" value="${voyage.nomvoyage }"/>
       </div>
       
       <div class="control-label">
        <label class="control-label">Prix :</label>
-       <input type="text" name="Prix" class="form-control" value="${produit.prix }"/>
+       <input type="text" name="Prix" class="form-control" value="${voyage.prix }"/>
       </div>
        </div>
          
